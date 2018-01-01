@@ -1,0 +1,13 @@
+#
+/*
+v.01 or stats for ip_vs from ipvsadm. 
+
+Written in PHP (badly) by Andrew Smalley for loadbalancer.org (c) 201801012246
+
+Populates data from "stats","rate","thresholds","persistent-conn" report types into vip[][info/reports][foo]real[info/reports][bar]
+
+Into an array you can work with...
+*/
+#
+
+
