@@ -107,7 +107,7 @@ $id=-1;
 
 		} else {
 			$ipport=explode(":",$sta[1]);
-			if($ipport[0]="127.0.0.1") {
+			if($ipport[0]=="127.0.0.1") {
 				$lvs[$type]["VIP"][$id]["RIP"][$realid]["info"]["label"]="fallbackserver";
 			}
 			$lvs[$type]["VIP"][$id]["RIP"][$realid]["info"]["label"]="";
